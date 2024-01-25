@@ -1,0 +1,19 @@
+{
+  "name": "typescript-oddities-and-patterns",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export --dark --with-clicks --with-toc --output typescript-oddities-and-patterns"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.46.3",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "slidev-theme-geist": "^0.8.1"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.41.1"
+  }
+}
